@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(150.64deg, #8e2de2 0%, #4a00e0 100%);
+}
+
+header {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 34px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.temperature {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+footer {
+  position: absolute;
+  bottom: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.autor {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.5);
+}
